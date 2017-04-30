@@ -1,0 +1,27 @@
+name:                blog
+version:             0.1.0.0
+synopsis:            My personal blog, generated using Hakyll 
+homepage:            https://github.com/oscarvarto/haskellBlog
+license:             Apache Licence Version 2.0
+license-file:        LICENSE
+author:              Oscar Vargas Torres
+maintainer:          vargas.torres.oscar@gmail.com
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable blog
+  hs-source-dirs:      app
+  main-is:             Site.hs
+  ghc-options:         -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       base,
+                       containers,
+                       hakyll,
+                       temporary,
+                       pandoc,
+                       skylighting >= 0.1
+  default-language:    Haskell2010
+
+source-repository head
+  type:     git
+  location: https://github.com/oscarvarto/haskellBlog
