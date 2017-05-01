@@ -1,3 +1,4 @@
+/*
 table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode, table.sourceCode pre
    { margin: 0; padding: 0; border: 0; vertical-align: baseline; border: none; line-height: 1.0 }
 td.lineNumbers { border-right: 1px solid #AAAAAA; text-align: right; color: #AAAAAA; padding-right: 5px; padding-left: 5px; }
@@ -15,14 +16,14 @@ pre.sourceCode span.al { color: red; font-weight: bold; }
 pre.sourceCode span.fu { color: #06287e; }
 pre.sourceCode span.re { }
 pre.sourceCode span.er { color: red; font-weight: bold; }
-
-/* kate
+*/
+/* kate */
 table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
   margin: 0; padding: 0; vertical-align: baseline; border: none}
 table.sourceCode { width: 100%; line-height: 100%; background-color: #ffffff; color: #1f1c1b;}
 td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; background-color: #ffffff; color: #a0a0a0; border-right: 1px solid #a0a0a0; }
 td.sourceCode { padding-left: 5px; }
-pre, code { color: #1f1c1b; background-color: #ffffff; font-size: 70%; }
+pre, code { color: #1f1c1b; background-color: #ffffff; }
 code > span.kw { color: darkcyan /* #1f1c1b */; font-weight: bold; } /* Keyword */
 code > span.dt { color: #0057ae; } /* DataType */
 code > span.dv { color: #b08000; } /* DecVal */
@@ -55,5 +56,3 @@ code > span.al { color: #bf0303; font-weight: bold; } /* Alert */
 code > span.er { color: #bf0303; text-decoration: underline; } /* Error */
 
 code > span. { color: #1f1c1b; } /* Normal */
-
-*/

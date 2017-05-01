@@ -2,7 +2,7 @@ name:                blog
 version:             0.1.0.0
 synopsis:            My personal blog, generated using Hakyll 
 homepage:            https://github.com/oscarvarto/haskellBlog
-license:             Apache Licence Version 2.0
+license:             Apache 
 license-file:        LICENSE
 author:              Oscar Vargas Torres
 maintainer:          vargas.torres.oscar@gmail.com
